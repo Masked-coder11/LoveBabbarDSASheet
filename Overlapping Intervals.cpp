@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<int>> overlappedInterval(vector<vector<int>>& intervals) {
+    vector<vector<int>> mergeOverlap(vector<vector<int>>& intervals) {
          // Code here
          
         sort(intervals.begin(), intervals.end());
